@@ -18,6 +18,11 @@ Custom React Hook for implementing a calendar with events
 npm install react-use-calendar --save
 ```
 
+## Demo
+
+[![Edit react-use-calendar](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/y0jonx2xvz)
+
+
 ## Usage
 
 ```javascript
