@@ -1,0 +1,40 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true,
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    },
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "no-console": "off",
+    "semi": 2,
+    "no-undef": 2,
+    "no-undef-init": 2,
+    "no-tabs": 2,
+    "react/self-closing-comp": 2,
+    "react/no-typos": 2,
+    "no-unused-vars": 2
+  },
+  "plugins": [
+    "import",
+    "react"
+  ]
+}

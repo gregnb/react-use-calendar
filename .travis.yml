@@ -1,0 +1,9 @@
+language: node_js
+
+node_js:
+  - "stable"
+
+script: 
+ - npm run -s lint
+ - npm run -s test
+ - npm run -s build
