@@ -58,9 +58,7 @@ function useCalendar(date, options = {}) {
   const { days, weeks, month, year } = state;
 
   useEffect(() => {
-    return () => {
-      dispatch({ type: actionTypes.SET_DATE, date });
-    };
+    return () => dispatch({ type: actionTypes.SET_DATE, date });
   }, [dateDep(date)]);
 
   return [
