@@ -144,7 +144,7 @@ const [state, actions] = useCalendar(date, config);
 
 ```javascript
 import React from 'react';
-import useCalendar from 'use-calendar';
+import useCalendar from 'react-use-calendar';
 
 import ruLocale from 'date-fns/locale/ru';
 
